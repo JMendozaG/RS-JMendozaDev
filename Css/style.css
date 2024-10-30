@@ -201,9 +201,11 @@ nav{
 
 .btn-wsp{
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 55px;
     height: 55px;
-    line-height: 55px;
     bottom: 30px;
     right: 30px;
     background-color: #0df053;
